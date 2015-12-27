@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Course Project of Developing Data Products</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Course Project of Developing Data Products">
+  <meta name="author" content="Wei-Chen Chen">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Course Project of Developing Data Products</h1>
+    <h2>Part 2: Slidify</h2>
+    <p>Wei-Chen Chen<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Overview</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>This is the peer assessed assignment for the developing data products course at Coursera. This assignment has two parts:</h3>
+
+<h3>1. Build data product application by <a href="http://shiny.rstudio.com/">shiny</a></h3>
+
+<h3>2. Create data product related presentations by <a href="https://support.rstudio.com/hc/en-us/sections/200130218-R-Presentations">RPresentation</a> or <a href="http://slidify.org/">slidify</a></h3>
+
+<h2>The SECOND part is the focus of these slides.</h2>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>The Application</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>This application requires the UsingR and shiny Packages. It makes an interactive plot of the father.son data in the UsingR package. It has been deployed at: <a href="https://cwc4shinyapps.shinyapps.io/Project">https://cwc4shinyapps.shinyapps.io/Project</a></h3>
+
+<h3>The application initiates with a scatter plot. Users are allowed to</h3>
+
+<h3>1. Add or Remove the linear regression line</h3>
+
+<h3>2. Add or Remove user defined line with adjustable intercept and slope.</h3>
+
+<h3>3. R squared value of each line is shown as each line is added on the plot</h3>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h3>The <a href="http://www.inside-r.org/packages/cran/UsingR/docs/father.son">father.son</a> data is in the UsingR package. It contains 1078 measurements of a father&#39;s height and his son&#39;s height in inches.</h3>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Main Points</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>The R squared value of the linear regreaaion is larger than that of any other straight line.</li>
+<li>The R squared value can be NEGATIVE without without violating any rules of math. Its definition is at <a href="https://en.wikipedia.org/wiki/Coefficient_of_determination#Definitions">https://en.wikipedia.org/wiki/Coefficient_of_determination#Definitions</a></li>
+<li>A negative R squared simplily means it is a wrong model to interpret the data.</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Overview'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='The Application'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='The <a href="http://www.inside-r.org/packages/cran/UsingR/docs/father.son">father.son</a> data is in the UsingR package. It contains 1078 measurements of a father&#39;s height and his son&#39;s height in inches.'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Main Points'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
