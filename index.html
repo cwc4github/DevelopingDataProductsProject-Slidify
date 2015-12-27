@@ -32,7 +32,7 @@
         <slide class="title-slide segue nobackground">
   <hgroup class="auto-fadein">
     <h1>Course Project of Developing Data Products</h1>
-    <h2>Part 2: Slidify</h2>
+    <h2>Part 2: RStudio Presentation</h2>
     <p>Wei-Chen Chen<br/></p>
   </hgroup>
   <article></article>  
@@ -49,7 +49,7 @@
 
 <h3>1. Build data product application by <a href="http://shiny.rstudio.com/">shiny</a></h3>
 
-<h3>2. Create data product related presentations by <a href="https://support.rstudio.com/hc/en-us/sections/200130218-R-Presentations">RPresentation</a> or <a href="http://slidify.org/">slidify</a></h3>
+<h3>2. Create data product related presentations by <a href="https://support.rstudio.com/hc/en-us/sections/200130218-R-Presentations">RStudio Presentation</a> or <a href="http://slidify.org/">slidify</a></h3>
 
 <h2>The SECOND part is the focus of these slides.</h2>
 
@@ -77,11 +77,14 @@
 </slide>
 
 <slide class="" id="slide-3" style="background:;">
-  <hgroup>
-    <h3>The <a href="http://www.inside-r.org/packages/cran/UsingR/docs/father.son">father.son</a> data is in the UsingR package. It contains 1078 measurements of a father&#39;s height and his son&#39;s height in inches.</h3>
-  </hgroup>
   <article data-timings="">
-    <p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+    <p>The <a href="http://www.inside-r.org/packages/cran/UsingR/docs/father.son">father.son</a> data is in the UsingR package.</p>
+
+<pre><code class="r">plot(father.son$fheight, father.son$sheight, col = &quot;blue&quot;, xlab = &quot;Father&#39;s height in inches&quot;, 
+     ylab = &quot;Son&#39;s height in inches&quot;, main = &quot;Scatter Plot via embedded R code&quot;)
+</code></pre>
+
+<p><img src="assets/fig/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2"> </p>
 
   </article>
   <!-- Presenter Notes -->
@@ -120,7 +123,7 @@
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='The <a href="http://www.inside-r.org/packages/cran/UsingR/docs/father.son">father.son</a> data is in the UsingR package. It contains 1078 measurements of a father&#39;s height and his son&#39;s height in inches.'>
+        data-slide=3 title='NA'>
          3
       </a>
     </li>

@@ -34,12 +34,13 @@ knit        : slidify::knit2slides
 
 ---
 
-### The [father.son](http://www.inside-r.org/packages/cran/UsingR/docs/father.son) data is in the UsingR package. It contains 1078 measurements of a father's height and his son's height in inches.
-
+The [father.son](http://www.inside-r.org/packages/cran/UsingR/docs/father.son) data is in the UsingR package.
 ```{r echo=FALSE}
 library(UsingR); data(father.son)
+```
+```{r}
 plot(father.son$fheight, father.son$sheight, col = "blue", xlab = "Father's height in inches", 
-     ylab = "Son's height in inches", main = "Scatter Plot of the Father.Son Data")
+     ylab = "Son's height in inches", main = "Scatter Plot via embedded R code")
 ```
 
 ---

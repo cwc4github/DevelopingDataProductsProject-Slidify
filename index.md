@@ -1,6 +1,6 @@
 ---
 title       : "Course Project of Developing Data Products"
-subtitle    : "Part 2: Slidify"
+subtitle    : "Part 2: RStudio Presentation"
 author      : "Wei-Chen Chen"
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -16,7 +16,7 @@ knit        : slidify::knit2slides
 ### This is the peer assessed assignment for the developing data products course at Coursera. This assignment has two parts: 
 
 ### 1. Build data product application by [shiny](http://shiny.rstudio.com/)
-### 2. Create data product related presentations by [RPresentation](https://support.rstudio.com/hc/en-us/sections/200130218-R-Presentations) or [slidify](http://slidify.org/)
+### 2. Create data product related presentations by [RStudio Presentation](https://support.rstudio.com/hc/en-us/sections/200130218-R-Presentations) or [slidify](http://slidify.org/)
 
 ## The SECOND part is the focus of these slides.
 
@@ -34,9 +34,15 @@ knit        : slidify::knit2slides
 
 ---
 
-### The [father.son](http://www.inside-r.org/packages/cran/UsingR/docs/father.son) data is in the UsingR package. It contains 1078 measurements of a father's height and his son's height in inches.
+The [father.son](http://www.inside-r.org/packages/cran/UsingR/docs/father.son) data is in the UsingR package.
 
-![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png) 
+
+```r
+plot(father.son$fheight, father.son$sheight, col = "blue", xlab = "Father's height in inches", 
+     ylab = "Son's height in inches", main = "Scatter Plot via embedded R code")
+```
+
+![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2-1.png) 
 
 ---
 
